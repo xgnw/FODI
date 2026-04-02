@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "type": "wrangler types ./back-end-cf/types/worker.d.ts",
+    "format": "prettier . --write"
+  },
+  "devDependencies": {
+    "prettier": "^3.8.1",
+    "typescript": "^5.9.3",
+    "wrangler": "^4.76.0"
+  },
+  "type": "module"
+}
